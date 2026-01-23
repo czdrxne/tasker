@@ -1,47 +1,117 @@
-# Svelte + TS + Vite
+# TASKER
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+Welcome to the official repository of **Tasker** — a modern, sleek, and performance-focused task management web application designed to help users manage tasks efficiently with **zero backend dependency**. This project is **fast, secure, memory-efficient**, and built with simplicity and usability in mind.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+## 🚀 Overview
 
-## Need an official Svelte framework?
+This is a **fully client-side task management application** with complete **CRUD functionality**. All data is stored locally using **`localStorage`**, ensuring privacy, offline usability, and instant performance.
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+The app focuses on **clean UI/UX**, smooth interactions, and lightweight architecture while providing useful task insights and summaries.
 
-## Technical considerations
+---
 
-**Why use this over SvelteKit?**
+## 🌟 Highlights
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+- ⚡ **Blazing fast** – no backend and no network calls
+- 🔐 **Privacy-first** – all data stays on the user’s device
+- 🧠 **Memory efficient** – optimized state handling and minimal overhead
+- 🎨 **Modern & sleek design** – clean, minimal, and responsive UI
+- 🆓 **Free & Open Source Software (FOSS)** – use it, fork it, improve it!
 
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+---
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+## ⚡ Features
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+### 📝 Task Management (Full CRUD)
+- Create new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed or pending
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+### 🔍 Smart Searching
+- Search tasks by keywords
+- Real-time filtering based on task content
 
-**Why include `.vscode/extensions.json`?**
+### 🏷 Task Details
+Each task includes:
+- **Status:** Pending / Completed
+- **Priority Levels:**
+  - Normal
+  - Essential
+  - Urgent
+  - Critical
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+### 📊 Summary & Analytics
+Basic built-in insights:
+- **Total tasks**
+- **Completed tasks**
+- **Pending tasks**
+- **Completion rate (%)**
 
-**Why enable `allowJs` in the TS template?**
+### 💾 Data Persistence
+- Uses **localStorage** for storing tasks
+- Works offline
+- No accounts, no tracking, and no external services
 
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
+---
 
-**Why is HMR not preserving my local component state?**
+## 🎨 Design Philosophy
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
+- **Modern & Minimal:** Clean UI with intuitive interactions
+- **Performance-First:** Lightweight components and fast rendering
+- **Memory-Efficient:** No unnecessary libraries or heavy abstractions
+- **User-Focused:** Simple task flow, clear priorities, instant feedback
+- **Secure by Design:** No backend, no exposed APIs, no data leakage
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+---
 
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+## 💻 Tech Stack
+
+This project uses a modern, frontend-only stack:
+
+- **Vite** – Ultra-fast development & optimized production builds
+- **Svelte UI** – Lightweight, component-driven framework (⚠️ *Not SvelteKit*)
+- **TailwindCSS** – Utility-first styling for responsive design
+- **JavaScript / TypeScript** – Clean, maintainable logic
+- **localStorage API** – Client-side data persistence
+
+---
+
+## 🔐 Privacy & Security
+
+- **No backend**
+- **No authentication**
+- **No cookies**
+- **No analytics trackers**
+- **No third-party data sharing**
+
+All task data remains **entirely on the user’s device**.
+
+---
+
+## 🆓 License (MIT) & Usage
+
+This project is **Free and Open Source Software (FOSS)**.
+
+- You are free to **use**, **modify**, **fork**, and **share** this project.
+- Attribution is much appreciated.
+- Contributions and improvements are always welcome!
+
+---
+
+## ❤️ Final Notes
+
+This project is dedicated to:
+- **People / Users**
+- **FOSS Contribution**
+- **User Experience**
+
+If you find it useful, feel free to ⭐ the repository or build something cool on top of it.
+
+<br/>
+
+Thank you for checking out this project!  
+<br/>
+***© 2026 CZDRXNE — PROBLEMA EADEM RATIONE SOLVI NON POTEST***
