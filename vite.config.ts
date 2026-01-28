@@ -22,7 +22,7 @@ export default defineConfig(({ command, mode }) => {
             strictPort:     true,
             open:           true,
             cors:           { origin: "*" },
-            fs:             { allow: [path.resolve(__dirname, "src")] },
+            fs:             { allow: [path.resolve(__dirname)] },
         },
 
         resolve: {
