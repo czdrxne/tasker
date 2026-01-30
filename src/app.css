@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+
+    /* LIGHT */
+    --color-l-bg: #F0F2F5;
+    --color-l-fg: #FFFFFF;
+
+    /* ACCENT */
+    --color-acc: #25B7D3;
+
+    /* DARK */ 
+    --color-d-bg: #242424;
+    --color-d-fg: #2E2E2E;
+}
+
+.cursor-default       { cursor: url("/cursors/default.cur"), default; }
+.cursor-pointer       { cursor: url("/cursors/pointer.cur"), pointer; }
+.cursor-person        { cursor: url("/cursors/person.cur"), auto; }
+.cursor-help          { cursor: url("/cursors/help.cur"), help; }
+.cursor-unavailable   { cursor: url("/cursors/unavailable.cur"), not-allowed; }
+.cursor-location      { cursor: url("/cursors/location.cur"), crosshair; }
