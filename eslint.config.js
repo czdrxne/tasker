@@ -14,6 +14,11 @@ export default defineConfig([
         languageOptions: {
             parser: svelteParser,
             parserOptions: { parser: tseslint.parser },
+            globals: {
+                alert: "readonly",
+                confirm: "readonly",
+                window: "readonly",
+            },
         },
     },
 ]);
