@@ -20,7 +20,7 @@
     <div>
         <div class="flex items-center gap-4 mb-4">
 
-            <h2 class="text-[1.25rem] sm:text-2xl font-semibold">Ongoing</h2>
+            <h2 class="text-[1.25rem] sm:text-2xl font-bold">Ongoing</h2>
 
             <DeleteAllButton
                 store={ongoingTasks}
@@ -38,7 +38,7 @@
     <div>
         <div class="flex items-center gap-4 mb-4">
 
-            <h2 class="text-[1.25rem] sm:text-2xl font-semibold">Completed</h2>
+            <h2 class="text-[1.25rem] sm:text-2xl font-bold">Completed</h2>
 
             <DeleteAllButton
                 store={completedTasks}

@@ -38,7 +38,7 @@
                     {stat.label}
                 </p>
 
-                <h1 class="font-black sm:text-4xl text-3xl">
+                <h1 class="font-bold sm:text-4xl text-3xl">
                     {stat.value}
                 </h1>
 

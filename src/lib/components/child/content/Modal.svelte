@@ -33,7 +33,7 @@
 <div class="fixed inset-0 w-full h-full flex items-center justify-center z-20">
     <div class="absolute z-20 dark:bg-d-fg bg-l-fg sm:w-[30vw] w-[85%] p-6 rounded-2xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-5">
 
-        <h1 class="font-black text-center sm:text-[1.5rem] text-[1.3rem] mb-2">{title}</h1>
+        <h1 class="font-bold text-center sm:text-[1.5rem] text-[1.3rem] mb-2">{title}</h1>
 
         <div>
             <h4 class="font-semibold mb-2 text-sm">Task Name</h4>

@@ -15,7 +15,7 @@
 
 <div class="flex lg:items-center gap-4 relative lg:flex-row flex-col items-start">
 
-    <h1 class="dark:text-l-fg xl:text-5xl lg:text-[2.7rem] sm:text-[2.5rem] text-[7vw] font-black">
+    <h1 class="dark:text-l-fg xl:text-[2.7rem] lg:text-[2.7rem] sm:text-[2.5rem] text-[7vw] font-bold">
         <span>You&#8217;ve got</span>
         <span class="text-acc">{$analytics.pending}</span>
         <span>{taskLabel} today!</span>
