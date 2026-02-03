@@ -35,6 +35,14 @@ export function DeleteAll() {
     tasks.set([]);
 }
 
+export function DeleteAllCompleted() {
+    tasks.update(current => current.filter(task => !task.completed));
+}
+
+export function DeleteAllOngoing() {
+    tasks.update(current => current.filter(task => task.completed));
+}
+
 export function Complete(id: string) {
     tasks.update(current =>
         current.map(task =>
