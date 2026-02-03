@@ -3,8 +3,7 @@
     import Input    from "@components/child/navigation/Input.svelte";    
     import Theme    from "@components/child/navigation/Theme.svelte";
     import Trash    from "@components/child/navigation/Trash.svelte";
-
-    import star     from "@assets/star.svg";
+    import Rate     from "@components/child/navigation/Rate.svelte";
 
 </script>
 
@@ -16,19 +15,7 @@
         
         <Theme />
         <Trash />
-        <a
-            href="https://github.com/czdrxne/tasker/"
-            title="Rate my work!"
-            target="_blank"
-            rel="noreferrer noopener"
-            class="bg-l-bg dark:bg-d-bg p-3 rounded-full cursor-pointer"
-        >
-            <img
-                src={star}
-                alt="star"
-                class="sm:w-[17px] w-[14px]"
-            />
-        </a>
+        <Rate />
     </div>
     
 </nav>

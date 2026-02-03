@@ -60,10 +60,10 @@
                         on:click={() => Complete(task.id)}
                         type="button"
                         aria-label="complete task"
-                        class="sm:min-h-5 sm:min-w-5 min-w-[17px] min-h-[17px] rounded-full border-2 border-acc border-solid cursor-pointer"
+                        class="sm:min-h-5 sm:min-w-5 min-w-[20px] min-h-[20px] rounded-full border-2 border-acc border-solid cursor-pointer"
                     ></button>
 
-                    <p class="break-all sm:text-[17px] text-[14px]">{task.name}</p>
+                    <p class="break-all sm:text-[1.1rem] text-[1.04rem]">{task.name}</p>
                 </div>
 
                 <div class="ml-auto flex md:gap-4 sm:w-fit w-full items-center gap-2 justify-end">
@@ -80,24 +80,24 @@
                         on:click={() => startEdit(task)}
                         type="button"
                         aria-label="edit task"
-                        class="p-2 dark:bg-d-fg bg-l-bg rounded-full cursor-pointer"
+                        class="sm:p-2 p-[6px] dark:bg-d-fg bg-l-bg rounded-full cursor-pointer"
                     >
                         <img
                             src={$theme === "dark" ? penDark : penLight}
                             alt="pen"
-                            class="max-w-[10px] min-w-[10px] md:max-w-[17px] md:min-w-[17px]"
+                            class="max-w-[15px] min-w-[15px] sm:max-w-[17px] sm:min-w-[17px]"
                         />
                         
                     </button>
                     <button
                         on:click={() => Delete(task.id)}
                         aria-label="delete task"
-                        class="p-2 dark:bg-d-fg bg-l-bg rounded-full cursor-pointer"
+                        class="sm:p-2 p-[6px] dark:bg-d-fg bg-l-bg rounded-full cursor-pointer"
                     >
                         <img
                             src={$theme === "dark" ? trashDark : trashLight}
                             alt="trash"
-                            class="max-w-[10px] min-w-[10px] md:max-w-[17px] md:min-w-[17px]"
+                            class="max-w-[15px] min-w-[15px] sm:max-w-[17px] sm:min-w-[17px]"
                         />
                         
                     </button>

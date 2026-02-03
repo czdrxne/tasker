@@ -11,8 +11,7 @@
             alert("You have no task left to delete.");
             return;
         }
-        const confirmed = confirm("Delete all tasks?");
-        if (confirmed) DeleteAll()
+        if (confirm("Delete all tasks?")) DeleteAll();
     }
 
 </script>
@@ -21,11 +20,11 @@
     on:click={onDelete}
     type="button"
     aria-label="delete all"
-    class="bg-l-bg dark:bg-d-bg p-3 rounded-full cursor-pointer"
+    class="bg-l-bg dark:bg-d-bg sm:p-3 p-[10px] rounded-full cursor-pointer"
 >
     <img
         src={$theme === "dark" ? trashDark : trashLight}
         alt="trash"
-        class="sm:w-[17px] w-[14px]"
+        class="sm:w-[17px] w-[20px]"
     />
 </button>

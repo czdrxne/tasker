@@ -36,12 +36,12 @@
                             <img
                                 src={$theme === "dark" ? iconLight : iconDark}
                                 alt="icon"
-                                class="sm:max-w-[20px] sm:min-w-[20px] max-w-[17px]"
+                                class="sm:max-w-[20px] sm:min-w-[20px] max-w-[20px]"
                             />
                         </button>
 
 
-                        <p class="break-all line-through text-neutral-400 sm:text-baseline text-[14px]">{task.name}</p>
+                        <p class="break-all line-through text-neutral-400 sm:text-[1.1rem] text-[1.04rem]">{task.name}</p>
 
                     </div>
 
@@ -59,12 +59,12 @@
                             on:click={() => Delete(task.id)}
                             type="button"
                             aria-label="delete task"
-                            class="p-2 dark:bg-d-fg bg-l-bg rounded-full cursor-pointer"
+                            class="sm:p-2 p-[6px] dark:bg-d-fg bg-l-bg rounded-full cursor-pointer"
                         >
                             <img
                                 src={$theme === "dark" ? trashDark : trashLight}
                                 alt="trash"
-                                class="sm:min-w-[15px] w-[10px]"
+                                class="sm:min-w-[17px] w-[15px]"
                             />  
                         </button>
 
