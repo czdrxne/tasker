@@ -68,7 +68,7 @@
 
                 <div class="ml-auto flex md:gap-4 sm:w-fit w-full items-center gap-2 justify-end">
                     
-                    <p class="bg-l-bg px-4 py-1 rounded-4xl text-neutral-500 font-semibold md:text-sm text-xs" >
+                    <p class="dark:bg-d-fg dark:text-l-fg bg-l-bg px-4 py-1 rounded-4xl text-neutral-500 font-semibold md:text-sm text-xs" >
                         {task.completed ? "Completed" : "Pending"}
                     </p>
                     
